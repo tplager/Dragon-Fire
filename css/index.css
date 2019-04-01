@@ -1,0 +1,311 @@
+header {
+    width: 100%;
+    position: sticky;
+}
+
+body {
+    padding: 0;
+    background-color:rgb(53, 53, 53);
+    font-family: 'Crimson Text', serif;
+    font-size:14pt;
+}
+
+h1 {
+    color: #E81C0C;
+    font-family:"Charmonman", serif;
+    text-align:center;
+    font-size:36pt;
+    display:inline;
+    padding: 0.5em;
+}
+
+#heading {
+    margin:auto;
+    width:50%;
+    text-align:center;
+}
+
+h2 {
+    font-family:serif;
+    font-size:20pt;
+    text-align:center;
+}
+
+main {
+    margin:auto;
+    width:90%;
+    padding:2em;
+}
+
+.contentBlock {
+    background-color: #DBCAC0;
+    padding:0.25em 2em 0.25em 2em;
+    border:thick solid #FF550D;
+    border-bottom:thin solid black;
+}
+
+ul li {
+    display: inline-block;
+    padding:0.5em;
+    width:40%;
+    margin-top:0.25em;
+    text-align:center;
+    background-color:#E83D0C;
+    color:white;
+    font-weight: bold;
+}
+
+ul {
+    width:103%;
+}
+
+#description {
+    border-radius: 1em;
+    border:thick solid #FF550D;
+    font-size: 22pt;
+    padding:0.5em;
+    text-align:center;
+}
+
+#description p {
+    margin:0;
+}
+
+#about {
+    border:thick solid #FF550D;
+    border-radius: 0 0 1em 1em;
+}
+
+#summary {
+    border-radius: 1em 1em 0 0;
+}
+
+#story h3 {
+    text-decoration:underline;
+    text-align:center;
+}
+
+#navList {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    text-align:center;
+}
+
+.navListItem {
+    background-color: #DBCAC0;
+    border:3px solid #FF550D;
+    width:20%;
+    text-decoration: none;
+    color:black;
+    padding:0.5em;
+    text-align:center;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.navListItem:hover {
+    background-color: rgb(116, 107, 107);
+}
+
+#current {
+    background-color: rgb(116, 107, 107);
+}
+
+#dragon {
+    margin-left:30%;
+    margin-right:30%;
+    width:40%;
+    margin-top:4%;
+}
+
+.fireBlast {
+    display:inline;
+    width:10%;
+}
+
+#documentation {
+    border-radius: 1em;
+    border:thick solid #FF550D;
+}
+
+#documentation h3, h4 {
+    text-decoration: underline;
+}
+
+#documentation h2 {
+    text-align: center;
+}
+
+#documentation li {
+    display: inline;
+    padding:0;
+    text-align:center;
+    background-color:#DBCAC0;
+    text-decoration:none;
+}
+
+#documentation li a {
+    text-decoration: none;
+    color:black;
+    font-weight:normal;
+}
+
+#documentation li a:hover {
+    color: #E83D0C;
+    text-decoration: underline;
+}
+
+#documentation li a:active {
+    color: #FF550D;
+}
+
+#documentation li a:visited {
+    color: rgb(116, 107, 107);
+}
+
+h3, h4, #documentation ul {
+    margin:0.5em;
+}
+
+#screenshots img {
+    width:48.5%;
+    border: solid thin #FF550D;
+    margin-bottom:20px;
+}
+
+.gameplayLI, .aestheticsLI, .summaryLI {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+    text-align: left;
+    color:black;
+    font-weight:normal;
+    width:90%;
+    padding-top:0.5em;
+    display:list-item;
+    list-style-type: circle;
+}
+
+footer {
+    border-radius: 0.6em;
+    border:thick solid #FF550D;
+    margin:auto;
+    width:83%;
+    padding:2em;
+    background-color: #DBCAC0;
+    padding:0.25em 2em 0.25em 2em;
+    border:thick solid #FF550D;
+    text-align: center;
+    margin-top:1em;
+}
+
+footer a {
+    text-decoration: none;
+    color:black;
+    font-weight:normal;
+}
+
+footer a:hover {
+    color: #E83D0C;
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: #FF550D;
+}
+
+footer a:visited {
+    color: rgb(116, 107, 107);
+}
+
+i {
+    font-size: 36pt; 
+}
+
+#game {
+    padding-top: 1.5em;
+    position: relative;
+    overflow:hidden;
+    top:50%;
+    left:50%;
+    width:100%;
+    height:650px;
+    transform: translate(-50%, 0%);
+}
+
+/*Resize title images at lower widths*/
+@media only screen and (max-width: 900px) {
+    .fireBlast {
+        width:15%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fireBlast {
+        width:20%;
+    }
+}
+
+/*Resize heading and nav bar at lower widths*/
+@media only screen and (max-width: 872px) {
+    #heading {
+        width:70%;
+    }
+    #navList {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #heading {
+        width:80%;
+    }
+    #navList {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 617px) {
+    #heading {
+        width:90%;
+    }
+    #navList {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 617px) {
+    #heading {
+        width:95%;
+    }
+    #navList {
+        width: 90%;
+    }
+    .navListItem {
+        width: 18%;
+        font-size:11pt;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    #heading {
+        width:98%;
+    }
+    h1 {
+        font-size:32pt;
+    }
+    #navList {
+        width: 90%;
+    }
+    .navListItem {
+        width: 30%;
+        font-size:14pt;
+    }
+}
+
